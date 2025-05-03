@@ -5,7 +5,7 @@ export default function AnimatedFooter() {
     return(
         <>
 
-            <div className="bg-dark bg-opacity-25 ">
+            <div className="bg-dark bg-opacity-10 ">
                     <FirstFooter  />
                     <section className="animated-section position-relative">
                     <img src="/assets/image/AnimiFooter/Footer_BG.png" alt="Road Background" className="bg-image" />

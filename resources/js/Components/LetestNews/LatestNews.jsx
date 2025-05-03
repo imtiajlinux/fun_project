@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LatestNews({ latestNews }) {
     
-console.log(latestNews);
+
     const chunkedNews = [];
     for (let i = 0; i < latestNews.length; i += 3) {
         chunkedNews.push(latestNews.slice(i, i + 3));
